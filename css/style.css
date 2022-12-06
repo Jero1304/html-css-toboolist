@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container_head{
+    background-color: white;
+    display: block;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.padding_head{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.container_head h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+.container_main{
+    margin: auto;
+    display: block;
+    height: 700px;
+    width: 900px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.padding_button{
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.ATask{
+    background-color: #5f8cff;
+    color: white;
+    border: solid 1px;
+    border-radius: 2px;
+    padding:5px;
+    margin: auto;
+}
+.ASection{
+    background-color: white;
+    color: lightgrey;
+    border: lightgrey solid 1px;
+    border-radius: 2px;
+    padding:5px;
+    margin: auto;
+
+}
+
+.punto{
+    list-style: none;
+    margin-top: 10px;
+    padding-left:40px ;
+}
+
+
+.check{
+    border-radius: 100%;
+    color: green;
+}
+.cross{
+    border-radius: 100%;
+    color: red;
+}
+
+
+.square{
+    color: white;
+    border-radius:10px ;
+    font-size: 10px;
+    padding:6px ;
+    margin: 10px;
+}
+
+.blue{
+    background-color: #5f8cff;
+}
+.violet{
+    background-color: #9361ff;
+}
+.green{
+    background-color: #00ffb3;
+}
+.orange{
+    background-color: #ffb700;
+}
+.pink{
+    background-color: fuchsia;
+}
+
+li{
+    padding-bottom: 10px;
+}
