@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+ul,ol,menu{
+    list-style: none;
+    color: currentColor;
+}
 
 body{
     background-color: lightgray;
@@ -11,6 +15,7 @@ body{
 .container_head{
     background-color: white;
     display: block;
+    border-radius: 5px;
 }
 
 .logo{
@@ -31,12 +36,13 @@ body{
 }
 
 .container_main{
-    margin: auto;
-    display: block;
+    margin: 0 auto;
     height: 700px;
-    width: 900px;
+    max-width: 750px;
     background-color: white;
     border-radius: 10px;
+    margin-top: 40px;
+    
 }
 
 .padding_button{
@@ -53,7 +59,7 @@ body{
     padding:5px;
     margin: auto;
 }
-.ASection{
+.Asection{
     background-color: white;
     color: lightgrey;
     border: lightgrey solid 1px;
@@ -64,23 +70,23 @@ body{
 }
 
 .punto{
-    list-style: none;
     margin-top: 10px;
-    padding-left:40px ;
+    padding-left: 40px;
 }
 
 
 .check{
+    border: 2px solid green;
     border-radius: 100%;
     color: green;
 }
 .cross{
+    border: 2px solid red;
     border-radius: 100%;
     color: red;
 }
 
-
-.square{
+.circle{
     color: white;
     border-radius:10px ;
     font-size: 10px;
